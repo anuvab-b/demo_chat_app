@@ -144,6 +144,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.6.1"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "3bc132a9dbce73a7e4a21a17d06e1878839ffbf975568bc875c60537824b0c4d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.18.1"
+  jiffy:
+    dependency: "direct main"
+    description:
+      name: jiffy
+      sha256: "099cce4814211dd0736cd8f4950c0240ad635df861214b1e079b68bb3cc6058b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.0"
   js:
     dependency: transitive
     description:

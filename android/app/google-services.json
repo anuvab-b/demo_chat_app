@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:529634099574:android:f1e3c2e2517c1c111c7a57",
+        "mobilesdk_app_id": "1:529634099574:android:f7c6dcc5f01c11591c7a57",
         "android_client_info": {
-          "package_name": "com.example.demochatapp"
+          "package_name": "com.example.demochat.demo_chat_app"
         }
       },
       "oauth_client": [],
