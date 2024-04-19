@@ -9,6 +9,7 @@ import 'dart:math';
 class ChatController extends GetxController {
   List<MessageModel> messagesList = List.empty(growable: true);
   String selectedUser = "User 1";
+  bool selected = false;
   late TextEditingController messageController;
   late final ScrollController scrollController;
   final String _recordKey = "-Nvqvt8eQr-rbBzkWP4E";
@@ -69,8 +70,11 @@ class ChatController extends GetxController {
     });
   }
 
-  void onUserSwitched(int index) {
+  void onUserSwitched() {
+    selected = !selected;
+    int index = selected ? 1:2;
     selectedUser = "User $index";
+    scrollToBottom();
     update();
   }
 

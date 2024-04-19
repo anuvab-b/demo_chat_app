@@ -77,7 +77,8 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
                 IconButton(onPressed: controller.addMessage, icon: const Icon(Icons.send)),
-                IconButton(onPressed: controller.populate, icon: const Icon(Icons.add))
+                IconButton(onPressed: controller.populate, icon: const Icon(Icons.add)),
+                IconButton(onPressed: controller.onUserSwitched, icon: const Icon(Icons.swap_calls))
               ],
             ),
           ],
